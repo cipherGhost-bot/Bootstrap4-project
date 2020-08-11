@@ -1,0 +1,151 @@
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px;
+}
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+.footer {
+  background-color:hsl(0, 0%, 0%);
+  margin: 0px auto;
+  padding: 20px 0px;
+  height: 300px;
+}
+.jumbotron {
+  margin: 0px auto;
+  padding: 70px 30px;
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../img/land.jpg");
+  background-size: cover;
+  color: floralwhite;
+  height: 500px;
+}
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: darkslategray;
+  font-weight: bold;
+}
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
+   background-color: gainsboro;
+}
+.navbar-dark {
+  background-color:  #1a1a1a /*#512DA8*/;
+}
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+.carousel {
+  background:  #1a1a1a;
+}
+.carousel .carousel-item {
+  height: 300px;
+}
+.carousel .carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
+}
+#carouselButton {
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1;
+}
+#loginModal .modal-body {
+ background-color: lightslategray;
+}
+#loginModal .modal-title {
+  color: floralwhite;
+}
+#loginModal .modal-header {
+  background:  #1a1a1a;
+}
+#loginModal #closebtn {
+  color: floralwhite;
+}
+#reserveTable .modal-body {
+  background-color: lightslategray;
+}
+#reserveTable .modal-title {
+  color: floralwhite;
+}
+#reserveTable .modal-header {
+  background:  #1a1a1a;
+}
+#reserveTable #clbtn {
+  color: floralwhite;
+}
+#accordion .card {
+  background-color: hsla(0, 0%, 0%, 0.3);
+}
+#p {
+  background-color: hsla(0, 0%, 0%, 0.3);
+}
+#s {
+  background-color: hsla(0, 0%, 0%, 0.2);
+}
+
+body>input, body>textarea{
+  color: #ff0000;
+}
+
+textarea:focus, input:focus {
+  color: #ff0000;
+}
+a {
+  color:gray;
+  transition: color 0.3s;
+}
+a:hover {
+  color: floralwhite;
+}
+.searchbox {
+  
+  
+  background: #2f3640;
+  
+  border-radius: 40px;
+  padding: 10px;
+
+
+}
+.searchbox:hover > .search-txt{
+  width: 240px;
+  padding: 0 6px;
+}
+.searchbox:hover > .searchbutton{
+  background: white;
+}
+.searchbutton {
+  color:#e84118;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #2f3640;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.search-txt {
+  border:none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+}
